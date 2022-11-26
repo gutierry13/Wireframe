@@ -1,0 +1,168 @@
+@media(max-width: 1300px) {
+  .list-container {
+    gap: 2rem 2%;
+  }
+  .list-container li {
+    width: 23,5%;
+  }
+  .list-container li img {
+    width: 100%;
+  }
+}
+@media(max-width:1200px){
+  .first-section .text{
+    max-width: 49%;
+  }
+  .card-container{
+    width: 100%;
+  }
+  .card{
+    width: 32%;
+  }
+  .list-container {
+    gap: 1rem 2%;
+  }
+  .list-container li {
+    width: 23.5%;
+  }
+  .last-info{
+    flex-direction: column;
+    text-align: center;
+  }
+  .last-info p{
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .main-content{
+    max-width: 63rem;
+
+  }
+}
+@media(max-width: 1080px){
+  header nav{
+    display: none;
+  }
+  .menu-mobile{
+    display: block;
+  }
+}
+@media(max-width: 991px){
+  .first-section .hero{
+    height: 40rem;
+  }
+  .main-content{
+    max-width: 45rem;
+    gap: 2.6rem;
+  }
+}
+@media(max-width: 768px){
+  .first-section {
+    flex-direction: column;
+  }
+  .first-section .text{
+    max-width: 100%;
+    margin-bottom: 4.0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-section .text h1,.first-section .text p{
+    text-align: center;
+  }
+ 
+  .card-container{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3.0rem .8rem;
+    margin-bottom: 2.0rem;
+  }
+  .card:last-child{
+    margin-bottom: 0;
+  }
+  .card .info {
+    max-width: 100%;
+  }
+  .info{
+    margin-top: 2rem;
+  }
+  .card-frist-section{
+    padding-bottom: 8rem;
+  }
+  .main-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .area-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4.0rem;
+  }
+  .area-left p{
+    text-align: center;
+  }
+  .main-content{
+    max-width: 100%;
+  }
+  .copy {
+    justify-content: center
+  }
+}
+@media(max-width: 600px){
+  .list-container {
+    gap: 0.5rem 4%;
+  }
+  .list-container li {
+    width: 40%;
+  }
+  .list-container li img {
+    width: 100%;
+  }
+}
+@media(max-width: 480px){
+  .menu-mobile{
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+  }
+  html{
+    font-size: 55%;
+  }
+  header .logo{
+    max-width: 180px;
+  }
+  h1{
+    font: 4.2rem;
+  }
+  .first-section .text p{
+    margin-bottom: 3rem;
+  }
+  first-section .hero img{
+    max-width: 10rem;
+  }
+  .card{
+    padding: 3rem;
+  }
+  .card-frist-section{
+    padding-bottom: 4rem;
+  }
+  .main-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .media{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+  }
+  footer{
+    padding-top: 4.8rem;
+    padding-bottom: 1.8rem;
+  }
+  .main-footer{
+    padding-bottom: 4.2rem;
+  }
+}

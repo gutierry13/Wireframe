@@ -1,0 +1,11 @@
+:root{
+  --colors-pink:#f67acb;
+  --colors-grey-50:#e6ebf2;
+  --colors-grey-100:#050110;
+  --colors-grey-200:#1c1d1f;
+  --colors-white-grey-300:#393c40;
+  --colors-white-grey-400:#5c6066;
+  --colors-white-grey-800:#f7f8fa;
+  --colors-white-text:rgba(255,255,255,.7);
+  --white-main:#fff;
+}
